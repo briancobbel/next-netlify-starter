@@ -33,3 +33,28 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+
+
+
+
+.quoteContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 50px;
+  width: 80%;
+  border: 1px solid grey;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#quote {
+  text-align: center;
+  font-size: 32px;
+}
+
+#author {
+  margin-top: 30px;
+  font-size: 16px;
+}

@@ -30,13 +30,13 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
+        <Header title="Random Quotes" />
+        <div className="description">
           <div class="quoteContainer">
             <div id="quote"></div>
             <div id="author"></div>
           </div>
-        </p>
+        </div>
       </main>
 
       <Footer />
