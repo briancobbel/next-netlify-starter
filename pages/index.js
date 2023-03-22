@@ -1,12 +1,11 @@
 import Head from "next/head";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
-import { MY_API_KEY } from "./config.js";
 
 const options = {
   method: "GET",
   headers: {
-    "x-rapidapi-key": MY_API_KEY,
+    "X-RapidAPI-Key": "7b0935bfcamshbac80d765728a94p11adb2jsnd711fa8e8f3c",
     "X-RapidAPI-Host": "quotes15.p.rapidapi.com",
   },
 };
